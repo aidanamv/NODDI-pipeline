@@ -1,0 +1,3 @@
+[submodule "bruker2nifi"]
+	path = bruker2nifi
+	url = https://github.com/SebastianoF/bruker2nifti.git
