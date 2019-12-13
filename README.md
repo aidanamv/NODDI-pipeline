@@ -1,6 +1,6 @@
 # NODDI-pipeline
 ## Setting up NODDI on your PC
-This pipeline is based on the following [tutorial](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab).
+This pipeline is implemented on the basis of the following [tutorial](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab).
 For that you need to have Matlab with optimization toolbox and cloned current directory:
 
 `git clone git@github.com:aidanamv/NODDI-pipeline.git` 
