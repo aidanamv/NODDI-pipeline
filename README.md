@@ -24,7 +24,7 @@ I have added here create_struct.m file, which allows you to create the structure
 
 ## Running NODDI
 
-Finally, you are ready to launch NODDI. If you have less than 20 cores on your PC, you are better to change 20 in this line in estimate_noddi.m file to the number of cores of your machine:
+Finally, you are ready to launch NODDI. First, make sure that you are in your data folder (in Matlab environment). If you have less than 20 cores on your PC, you are better to change 20 in this line in estimate_noddi.m file to the number of cores of your machine:
 
 `batch_fitting(roi,'wholebrain.mat', protocol, noddi, 'FittedParams.mat', 20);
 ` 
