@@ -14,7 +14,7 @@ First of all, you have to convert your bruker data to nifti. For that you can us
 
 If you are not Linux user, you can just use any python IDE or jupyter notebook.
 
-This will convert your Bruker data to nifti files. In the generated folder, find a folder containing DWI data. This is the heaviest normally and it contains zipped DWI data in nifti format and b values and b vectors in text files. Make sure to unzip zipped DWI data. Another pain in the ass is that you have to create the mask of the brain for NODDI pipeline. I did that using [ITK-Snap software](http://www.itksnap.org/pmwiki/pmwiki.php). This is pretty cool software, since you can do it quickly owing to its ability to interpolate manually drawn segments. Once you have segmented the whole brain, save your segmentation as both nifti and hdr files. 
+This will convert your Bruker data to nifti files. In the generated folder, find a folder containing DWI data. This is the heaviest normally and it contains zipped DWI data in nifti format and b values and b vectors in text files. Make sure to unzip zipped DWI data. Another pain is that you have to create the mask of the brain for NODDI pipeline. I did that using [ITK-Snap software](http://www.itksnap.org/pmwiki/pmwiki.php). This is pretty cool software, since you can do it quickly owing to its ability to interpolate manually drawn segments. Once you have segmented the whole brain, save your segmentation as both nifti and hdr files. 
 
 Now, you are supposed to be ready to feed your data!
 
